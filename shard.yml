@@ -21,16 +21,17 @@ dependencies:
   habitat:
     github: luckyframework/habitat
 
-development_dependencies:
-  ameba:
-    github: crystal-ameba/ameba
-  fastimage:
-    github: jetrockets/fastimage.cr
-    branch: master
-  pixie:
-    github: watzon/pixie
-  spectator:
-    gitlab: arctic-fox/spectator
-  webmock:
-    github: manastech/webmock.cr
-    branch: master
+#development_dependencies:
+#  ameba:
+#    github: crystal-ameba/ameba
+#  fastimage:
+#    github: jetrockets/fastimage.cr
+#    branch: master
+#  pixie:
+#    github: watzon/pixie
+#  spectator:
+#    gitlab: arctic-fox/spectator
+#  webmock:
+#    github: manastech/webmock.cr
+#    branch: master
+#
