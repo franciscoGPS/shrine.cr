@@ -9,11 +9,11 @@ class Shrine
         @store = {} of String => String
       end
 
-      def upload(io : IO | UploadedFile, id : String, **options)
+      def upload(io : IO | UploadedFile, id : String, move = false, **options)
         store[id.to_s] = io.gets_to_end
       end
 
-      def open(id : String) : IO
+      def open(id : String, **options) : IO
         # StringIO.new(store.fetch(id))
         IO::Memory.new(store[id])
       rescue KeyError
